@@ -8,6 +8,9 @@
 
 #import <Foundation/Foundation.h>
 
-@protocol DieLabelDelegate <NSObject>
+@protocol DieLabelDelegate <NSObject>;
+
+-(void)didChooseDie:(id)dieLabel;
+
 
 @end

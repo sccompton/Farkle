@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E5A777A18878D0C00596F4A /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5A777918878D0C00596F4A /* CheckMate.framework */; };
 		9EB2FF5C188725FA006E87BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2FF5B188725FA006E87BA /* Foundation.framework */; };
 		9EB2FF5E188725FA006E87BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2FF5D188725FA006E87BA /* CoreGraphics.framework */; };
 		9EB2FF60188725FA006E87BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2FF5F188725FA006E87BA /* UIKit.framework */; };
@@ -21,6 +22,7 @@
 		9EB2FF7D188725FA006E87BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2FF5F188725FA006E87BA /* UIKit.framework */; };
 		9EB2FF85188725FA006E87BA /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9EB2FF83188725FA006E87BA /* InfoPlist.strings */; };
 		9EB2FF87188725FA006E87BA /* FarkleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2FF86188725FA006E87BA /* FarkleTests.m */; };
+		9EB2FF9218872656006E87BA /* DieLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EB2FF9118872656006E87BA /* DieLabel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9E5A777818873E5400596F4A /* DieLabelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieLabelDelegate.h; sourceTree = "<group>"; };
+		9E5A777918878D0C00596F4A /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 		9EB2FF58188725FA006E87BA /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB2FF5B188725FA006E87BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EB2FF5D188725FA006E87BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +57,8 @@
 		9EB2FF82188725FA006E87BA /* FarkleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FarkleTests-Info.plist"; sourceTree = "<group>"; };
 		9EB2FF84188725FA006E87BA /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		9EB2FF86188725FA006E87BA /* FarkleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FarkleTests.m; sourceTree = "<group>"; };
+		9EB2FF9018872656006E87BA /* DieLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DieLabel.h; sourceTree = "<group>"; };
+		9EB2FF9118872656006E87BA /* DieLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DieLabel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E5A777A18878D0C00596F4A /* CheckMate.framework in Frameworks */,
 				9EB2FF5E188725FA006E87BA /* CoreGraphics.framework in Frameworks */,
 				9EB2FF60188725FA006E87BA /* UIKit.framework in Frameworks */,
 				9EB2FF5C188725FA006E87BA /* Foundation.framework in Frameworks */,
@@ -101,6 +108,7 @@
 		9EB2FF5A188725FA006E87BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				9E5A777918878D0C00596F4A /* CheckMate.framework */,
 				9EB2FF5B188725FA006E87BA /* Foundation.framework */,
 				9EB2FF5D188725FA006E87BA /* CoreGraphics.framework */,
 				9EB2FF5F188725FA006E87BA /* UIKit.framework */,
@@ -115,6 +123,9 @@
 				9EB2FF6A188725FA006E87BA /* AppDelegate.h */,
 				9EB2FF6B188725FA006E87BA /* AppDelegate.m */,
 				9EB2FF6D188725FA006E87BA /* Main.storyboard */,
+				9E5A777818873E5400596F4A /* DieLabelDelegate.h */,
+				9EB2FF9018872656006E87BA /* DieLabel.h */,
+				9EB2FF9118872656006E87BA /* DieLabel.m */,
 				9EB2FF70188725FA006E87BA /* ViewController.h */,
 				9EB2FF71188725FA006E87BA /* ViewController.m */,
 				9EB2FF73188725FA006E87BA /* Images.xcassets */,
@@ -252,6 +263,7 @@
 				9EB2FF72188725FA006E87BA /* ViewController.m in Sources */,
 				9EB2FF6C188725FA006E87BA /* AppDelegate.m in Sources */,
 				9EB2FF68188725FA006E87BA /* main.m in Sources */,
+				9EB2FF9218872656006E87BA /* DieLabel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -378,6 +390,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sajscompton/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
 				INFOPLIST_FILE = "Farkle/Farkle-Info.plist";
@@ -391,6 +407,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/sajscompton/Downloads,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Farkle/Farkle-Prefix.pch";
 				INFOPLIST_FILE = "Farkle/Farkle-Info.plist";
@@ -460,6 +480,7 @@
 				9EB2FF8C188725FA006E87BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9EB2FF8D188725FA006E87BA /* Build configuration list for PBXNativeTarget "FarkleTests" */ = {
 			isa = XCConfigurationList;
@@ -468,6 +489,7 @@
 				9EB2FF8F188725FA006E87BA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

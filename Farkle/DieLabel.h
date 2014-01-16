@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "DieLabelDelegate.h"
 
 @interface DieLabel : UILabel
+@property id<DieLabelDelegate> delegate;
+
+-(void)roll;
+
 
 @end

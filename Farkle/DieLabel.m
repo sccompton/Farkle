@@ -8,7 +8,13 @@
 
 #import "DieLabel.h"
 
+int diceNumber;
+
+
 @implementation DieLabel
+
+
+
 
 - (id)initWithFrame:(CGRect)frame
 {
@@ -18,6 +24,19 @@
     }
     return self;
 }
+
+
+-(void)roll {
+    int diceNumber = arc4random() % 7;
+    self.text = [NSString stringWithFormat:@"%d",diceNumber];
+}
+
+
+-(IBAction)labelWasTapped:(id)sender{
+    self.backgroundColor = [UIColor greenColor];
+    [_delegate didChooseDie:self];
+}
+
 
 /*
 // Only override drawRect: if you perform custom drawing.
