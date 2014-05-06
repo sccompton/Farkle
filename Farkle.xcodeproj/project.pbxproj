@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E5A777A18878D0C00596F4A /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E5A777918878D0C00596F4A /* CheckMate.framework */; };
 		9EB2FF5C188725FA006E87BA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2FF5B188725FA006E87BA /* Foundation.framework */; };
 		9EB2FF5E188725FA006E87BA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2FF5D188725FA006E87BA /* CoreGraphics.framework */; };
 		9EB2FF60188725FA006E87BA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EB2FF5F188725FA006E87BA /* UIKit.framework */; };
@@ -37,7 +36,6 @@
 
 /* Begin PBXFileReference section */
 		9E5A777818873E5400596F4A /* DieLabelDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DieLabelDelegate.h; sourceTree = "<group>"; };
-		9E5A777918878D0C00596F4A /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../Downloads/CheckMate.framework; sourceTree = "<group>"; };
 		9EB2FF58188725FA006E87BA /* Farkle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Farkle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EB2FF5B188725FA006E87BA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		9EB2FF5D188725FA006E87BA /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +64,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9E5A777A18878D0C00596F4A /* CheckMate.framework in Frameworks */,
 				9EB2FF5E188725FA006E87BA /* CoreGraphics.framework in Frameworks */,
 				9EB2FF60188725FA006E87BA /* UIKit.framework in Frameworks */,
 				9EB2FF5C188725FA006E87BA /* Foundation.framework in Frameworks */,
@@ -108,7 +105,6 @@
 		9EB2FF5A188725FA006E87BA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				9E5A777918878D0C00596F4A /* CheckMate.framework */,
 				9EB2FF5B188725FA006E87BA /* Foundation.framework */,
 				9EB2FF5D188725FA006E87BA /* CoreGraphics.framework */,
 				9EB2FF5F188725FA006E87BA /* UIKit.framework */,

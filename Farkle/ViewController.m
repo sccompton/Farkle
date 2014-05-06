@@ -10,12 +10,7 @@
 #import "DieLabel.h" 
 #import "DieLabelDelegate.h"
 
-int counterOne;
-int counterTwo;
-int counterThree;
-int counterFour;
-int counterFive;
-int counterSix;
+
 
 @interface ViewController () <DieLabelDelegate>
 
@@ -54,7 +49,7 @@ NSMutableArray *dice;
 -(void)didChooseDie:(DieLabel*)dieLabel{
 
 [dice addObject:dieLabel];
-
+    
 }
 
 
@@ -76,11 +71,21 @@ NSMutableArray *dice;
     if ( !([dice containsObject:dieLabelSix]))
         [dieLabelSix roll];
     
+        [self counter];
 }
+
 
 
 -(void)counter
 {
+    
+    int counterOne = 0;
+    int counterTwo = 0;
+    int counterThree = 0;
+    int counterFour = 0;
+    int counterFive = 0;
+    int counterSix = 0;
+    
     //Counter One
     if ([dieLabelOne.text isEqualToString:(@"1")])
     {
@@ -266,15 +271,13 @@ NSMutableArray *dice;
     {
         counterSix += counterSix;
     }
-    NSLog(@"The first die is %d", counterOne);
-    NSLog(@"The second die is %d", counterTwo);
-    NSLog(@"The third die is %d", counterThree);
-    NSLog(@"The fourth die is %d", counterFour);
-    NSLog(@"The fifth die is %d", counterFive);
-    NSLog(@"The sixth die is %d", counterSix);
+    NSLog(@"There are %d ones", counterOne);
+    NSLog(@"There are %d twos", counterTwo);
+    NSLog(@"There are %d threes", counterThree);
+    NSLog(@"There are %d fours", counterFour);
+    NSLog(@"There are %d fives", counterFive);
+    NSLog(@"There are %d sixs", counterSix);
 }
-
-
 
 
 - (void)didReceiveMemoryWarning
